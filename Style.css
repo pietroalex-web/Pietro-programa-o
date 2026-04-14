@@ -1,15 +1,84 @@
-img {
-  max-width: 25%; }
-
-
-  .texto {
-    background-color: rgb(7, 54, 226);
-    text-align:center;
-  }
+.imagem {
+height: 50;
 
 
 
 
-  .principal {
-    border-color: aqua;
-  }
+
+
+
+
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.cabecalho {
+    padding: 20px;
+    background-color: rgb(62, 139, 255);
+    color: white;
+    text-align: center;
+    width: 100%;
+    height: 124px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+.caixa-cabecalho {
+    width: 100%;
+    height: 50%;
+}
+
+
+.link-caixa {
+    color: rgb(163, 163, 163);
+    text-decoration: none;
+}
+
+
+
+
+.photo-card {
+    display: inline-block;
+    vertical-align: top;  
+    width: 300px;
+    margin: 10px;          
+    background: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px
+    text-align: left;
+
+
+
+
+.card-image img { width: 100%;
+     height: 180px;
+      object-fit: cover;
+     }
+
+.card-content { padding: 20px;
+ }
+
+.tag { font-size: 11px; color: #0078d4; font-weight: bold; }
+
+.card-btn 
+{ width: 100%;
+    padding: 10px;
+    background: #0078d4;
+    color: white; border: none;
+    border-radius: 6px; cursor: pointer;
+     }
+
+
+.feedback {
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+}
